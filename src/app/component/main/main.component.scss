@@ -1,0 +1,13 @@
+.main {
+    &__inner {
+        display: flex;
+    }
+    &__left {
+        padding-right: 40px;
+        width: 240px;
+    }
+    &__right {
+        padding: 30px;
+        border-left:solid 1px rgb(91, 91, 91);
+    }
+}

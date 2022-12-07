@@ -1,0 +1,10 @@
+<div class="product-row" *ngIf="products.length > 0">
+  <h3 class="product-row__title" *ngIf="title.length > 0">{{ title }}</h3>
+
+  <div class="product-row__grid">
+    <app-product
+      *ngFor="let product of products"
+      [product]="product"
+    ></app-product>
+  </div>
+</div>

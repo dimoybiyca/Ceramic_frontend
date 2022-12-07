@@ -1,0 +1,13 @@
+.cat-list {
+    color: #2e2e2e;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 150px;
+    &__element {
+        margin: 5px 0;
+        &:hover {
+            font-weight: bold;
+            color: rgb(130, 0, 0);
+        }
+    }
+}

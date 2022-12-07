@@ -1,0 +1,8 @@
+<h2 class="catalog__title">{{ title }}</h2>
+
+<div class="catalog__grid">
+  <app-category
+    *ngFor="let category of categories"
+    [category]="category"
+  ></app-category>
+</div>

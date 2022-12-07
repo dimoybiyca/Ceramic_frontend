@@ -1,0 +1,11 @@
+<div class="cat-list">
+  <div class="cat-list__inner">
+    <ul class="cat-list__list">
+      <li class="cat-list__element" *ngFor="let category of categories">
+        <a class="cat-list__link" routerLink="/catalog/{{ category.id }}">
+          {{ category.name }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

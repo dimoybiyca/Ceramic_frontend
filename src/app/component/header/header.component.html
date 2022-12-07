@@ -1,0 +1,42 @@
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__side">
+        <div class="burger">
+          <button class="burger__btn">
+            <img alt="" class="burger__img" src="assets/img/menu.svg" />
+          </button>
+        </div>
+
+        <div class="logo">
+          <a class="logo__link lightning" routerLink="/main">Світ Кераміки</a>
+        </div>
+
+        <div class="catalog">
+          <a class="catalog__link" routerLink="/catalog">
+            <img class="catalog__img" alt="" src="assets/img/catalog.svg" />
+
+            <span class="catalog__text">Каталог</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="header__center">
+        <app-header-search></app-header-search>
+      </div>
+
+      <div class="header__side">
+        <div class="credentials">
+          <a class="credentials__link" href="#">
+            <img class="credentials__img" src="assets/img/user.svg" alt="" />
+          </a>
+        </div>
+        <div class="cart">
+          <div class="cart__link">
+            <img class="cart__img" src="assets/img/cart.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

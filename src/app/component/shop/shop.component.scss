@@ -1,0 +1,13 @@
+.shop {
+    margin-top: 50px;
+    &__inner {
+        display: flex;
+    }
+    &__filter {
+        width: 300px;
+        border-right: solid 1px #2e2e2e;
+    }
+    &__products {
+
+    }
+}

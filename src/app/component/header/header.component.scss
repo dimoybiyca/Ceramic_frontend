@@ -1,0 +1,80 @@
+.header {
+    color: #fff;
+    background-color: #2e2e2e;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    }
+    &__side {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__center {
+        width: 50%;
+    }
+    &__input {
+        width: 100%;
+        padding-left: 10px;
+    }
+    &__search {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+        margin: 0 10px;
+        height: 40px;
+        border-radius: 5px;
+        &-btn {
+            background-color: rgb(130, 0, 0);
+            height: 40px;
+            padding: 0 10px;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+}
+
+.logo {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.burger {
+    &__btn {
+        border-radius: 5px;
+        padding: 5px;
+        &:hover {
+            background-color: rgb(91, 91, 91);
+        }
+    }
+}
+
+.catalog {
+    cursor: pointer;
+    &__link {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        &:hover {
+            background-color: rgb(91, 91, 91);
+        }
+    }
+    &__text {
+        font-size: 22px;
+    }
+}
+
+.cart ,.credentials{
+    padding: 5px;
+    border-radius: 5px;
+    &:hover {
+        background-color: rgb(91, 91, 91);
+    }
+}

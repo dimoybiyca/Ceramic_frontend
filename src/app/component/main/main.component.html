@@ -1,0 +1,20 @@
+<main class="main">
+  <div class="container">
+    <div class="main__inner">
+      <div class="main__left">
+        <app-category-list></app-category-list>
+      </div>
+
+      <div class="main__right">
+        <app-poster></app-poster>
+
+        <div class="popular">
+          <app-product-row
+            title="Популярне"
+            [products]="popular"
+          ></app-product-row>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
