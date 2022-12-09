@@ -11,7 +11,7 @@
         width: 100%;
     }
     &__price {
-        margin-top: 20px;
+        align-self: end;
         font-size: 26px;
         font-weight: bold;
         color: rgb(130, 0, 0);
@@ -24,13 +24,29 @@
         height: 45px;
         overflow: hidden;
     }
+    &__status {
+        font-size: 14px;
+        font-weight: bold;
+        color: #ff9100;
+    }
     &__buy {
         display: flex;
         justify-content: space-between;
     }
-    &__btn {
+    &__btn-wrapper {
         background-color: #343434;
-        padding: 5px;
         border-radius: 50%;
+        transition: all .3s;
+    }
+    &__btn {
+        padding-top: 6px;
+        padding-left: 6px;
+        transition: all .3s;
+        &:hover {
+            background-color: #fff;
+            svg path {
+                fill: #820000;
+            }
+        }
     }
 }
